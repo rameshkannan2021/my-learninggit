@@ -1,0 +1,16 @@
+git init for create empty repo
+git add -for new file staging
+git commit- msg for commiting file
+git status - check the status what r done
+git config -users detail knowing purpose
+git log - these for what are the change take place notedown purpose
+git branch- knowing the branch detail of a develper
+git checkout -b____ these for create new branch
+git checkout -"branch name" for switching the branch from one to another
+cd 'file mame'go to that file
+git add * for adding no of files
+cd ..go to directory
+git mkdir for making new directory
+rmdir-for removing directory
+rm-rf for emoving file
+
