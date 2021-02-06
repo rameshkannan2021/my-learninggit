@@ -1,0 +1,89 @@
+h1{
+	font-family: aerialblack;
+	font-weight: bold;
+	font-size: 30px;
+	font-variant:small-caps;
+	color: green;
+}
+h2{
+	font-family: timesofnewroman;
+	font-weight: bold;
+	font-size: 30px;
+	color: blue;
+	font-variant:small-caps;
+
+}
+h3{
+	font-family: calibari;
+	font-weight: bold;
+	font-size: 30px;
+	font-variant:small-caps;
+	color:orange;
+
+}
+
+.box1{
+	height: 20px;
+	padding: 25px;
+	width: 20px;
+	border: auto;
+	background-color: red;
+	margin-left: 250px;
+
+}
+.box2{
+	height: 20px;
+	padding: 25px;
+	color:yellow;
+	width: 20px;
+	border: auto;
+	margin-left: 250px;
+	background-color: yellow;
+
+}
+.box3{
+	height: 20px;
+	padding: 25px;
+	color:green;
+	width: 20px;
+	border: auto;
+	background-color: green;
+	margin-left: 250px;
+
+}
+.box4{
+	height: 20px;
+	padding: 25px;
+	width: 20px;
+	border: auto;
+	background-color: blue;
+	margin-left: 250px;
+
+}
+<!--relative property-->
+.box1{
+	position:relative;
+	left:85px;
+}
+<!--absoulte property-->
+.box1{
+	position:absolute;
+	
+}
+<!--sticky property-->
+.box1{
+	position:sticky;
+	
+}
+<!--static property-->
+.box1{
+	position:static;
+	
+}
+<!--fixed property-->
+.box1{
+	position:fixed;
+	
+}
+
+
