@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learn J.S forinloop </title>
+	
+	<h1> for in-loop ex -1</h1>
+	<style>
+		h1{
+			font-size: 50px;
+			font-weight: bold;
+			font-family: times of new roman;
+			font-variant: small-caps;
+		}
+		h2{
+			font-size: 40px;
+			font-weight: initial;
+			font-family: times of new roman;
+			font-variant: small-caps;
+		}
+</style>
+</head>
+<body>
+	<script>
+		var names = 
+		{
+			name1 : "Muruga",
+			name2 : "velaa",
+			name3 : "arumuga",
+			name4 : "kandha",
+			name5 : "kathirvelaa",
+			name6 : "sanmuga",
+		};
+		for (let key in names) {
+			//console.log("key: ",names[key]);
+			console.log(key + ":", names[key]);
+		}
+	</script>
+</body>
+</html>
