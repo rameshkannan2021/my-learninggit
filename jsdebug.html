@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learn J.S objects with functions </title>
+	
+	<h1> objects basic ex-2</h1>
+
+	
+	<style>
+		h1 {
+			font-size: 55px;
+			font-weight: bold;
+			font-family: calibari;
+			font-variant: small-caps;
+			background-color: red;
+			padding: 55px;
+			}
+</style>
+</head>
+<body>
+	<!--here i had doubt -->
+	<script>
+		function person(name, age) {
+			this.name = name;
+             gender = "male";
+            let age = 30;//here i declared also error occur//
+			
+			this.print = function(){
+				console.log('my age is' + "age");
+			}
+
+		}
+		var x = new person("Arumugam",30);
+		  console.log (x);
+		//console.log (person);
+
+
+// in this case y age is not printed..?//
+	</script>
+</body>
+</html>
