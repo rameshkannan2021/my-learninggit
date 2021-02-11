@@ -1,0 +1,15 @@
+h1{
+	font color: red;
+	font-variant: small-caps;
+	font-size: bold;
+	font-family: Sans-serif,Arial;
+	background-position: center;
+	background-color:yellow;
+	padding: 30px; grid-auto-flow: 
+}
+.a {
+	font-variant:small-caps;
+	font-size: 50px;
+	font-variant:small-caps;
+
+}
